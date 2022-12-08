@@ -1,0 +1,39 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "product_selection_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "product_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "variant_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

@@ -1,0 +1,39 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "contact_address_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "order_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "is_fulfilled": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "fulfilled_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

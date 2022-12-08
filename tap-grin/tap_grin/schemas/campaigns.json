@@ -1,0 +1,163 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "affiliate_link_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "allow_influencer_uploads": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "brand_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "budget": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+
+        "compensation": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string",
+                        "examples": [
+                            "product"
+                        ]
+                    }
+                ]
+            }
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "date_content_end": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "date_content_start": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "date_proposals_end": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "date_proposals_start": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discount_code_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "influencer_inputs_price": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "influencer_title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "internal_title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "payment_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "public_tags": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "recurring_proposals": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "short_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "show_revenue_tracking_information": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "team_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "tracking_tags": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "version": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

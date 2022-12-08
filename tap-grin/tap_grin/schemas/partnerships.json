@@ -1,0 +1,197 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "brand_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "internal_title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "influencer_title": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "budget": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "short_description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_rights_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "tracking_tags": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discount_code_group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "affiliate_link_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "compensation": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string"
+                    }
+                ]
+            }
+        },
+        "show_revenue_tracking_information": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "payment_method": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "set_end_date": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "duration_interval": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "duration_length": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "deliverable_interval": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deal_total_cost": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "is_published": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "stage_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "has_strict_deliverable_dates": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "ignore_end_date_for_content": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "requires_signatur": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "signed_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true
+}

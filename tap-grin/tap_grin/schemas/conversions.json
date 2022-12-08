@@ -1,0 +1,113 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "brand_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "order_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "order_number": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "amount": {
+            "type": [
+                "number",
+                "null"
+            ]
+        },
+        "commission_amount": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+
+        "currency": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "rate": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "discount_code_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "affiliate_link_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+
+        "is_verified": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "is_voided": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "void_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "voided_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true
+}

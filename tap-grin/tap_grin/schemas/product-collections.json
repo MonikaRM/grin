@@ -1,0 +1,71 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "brand_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "parent_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "is_nav": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "position": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+      "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true
+}

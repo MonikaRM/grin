@@ -1,0 +1,57 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "destination_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "url_path": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "end_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

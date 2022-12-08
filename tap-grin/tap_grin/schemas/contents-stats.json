@@ -1,0 +1,135 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "owner_reach": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "imv": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "engagements": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "engagement_rate": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "views": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "likes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "shares": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "interactions": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "impressions": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reach": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "replies": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reply_rate": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "taps_forward": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "taps_back": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "away_swipes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "exits": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "updated_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

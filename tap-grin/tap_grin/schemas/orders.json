@@ -1,0 +1,85 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "product_selection_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ecommerce_account_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "campaign_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "user_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_order_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "fulfillments": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": ["string","null"]
+                    }
+                ]
+            }
+        },
+        "shipment_status": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "shipment_status_date": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true
+}

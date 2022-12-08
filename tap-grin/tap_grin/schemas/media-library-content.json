@@ -1,0 +1,343 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "campaign_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "content_rights_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "campaign_job_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "album_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "source": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "network_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "folder_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "source": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "is_story": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "media_type": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "thumbnail": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "source_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "caption": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "label": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "annotations": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": ["string","null"]
+                    }
+                ]
+            }
+        },
+        "owner": {
+            "type": [
+                "object",
+                "null"
+            ],
+            "properties": {
+                "id": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "name": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "reach": {
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "picture": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "username": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "additionalProperties": true
+        },
+        "content_url": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+
+        "hashtags": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string",
+                        "examples": [
+                            "ruggable"
+                        ]
+                    }
+                ]
+            }
+        },
+
+        "mentions": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": "string",
+                        "examples": [
+                            "ruggable"
+                        ]
+                    }
+                ]
+            }
+        },
+        "owner_reach": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "imv": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "engagements": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "engagements_rate": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "views": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "likes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "comments": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "share": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "interactions": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "impressions": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reach": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "replies": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "reply_rate": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "taps_forward": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "taps_back": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "away_swipes": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "exits": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "posted_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_rights_accepted_at": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+      "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "deleted_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "tagged_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+
+    },
+    "additionalProperties": true
+}

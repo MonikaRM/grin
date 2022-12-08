@@ -1,0 +1,121 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+      "brand_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+       "name": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cost": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+      "price": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+      "image": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+      "images": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": ["string","null"]
+                    }
+                ]
+            }
+        },
+      "description": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+      "has_options": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+       "is_shipped": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "shipping_cost": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+      "sku": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+      "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "qty": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+      "track_inventory": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+      "track_variant_inventory": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+      "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+      "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true
+}

@@ -1,0 +1,22 @@
+{
+
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": ["string","null"]
+    },
+    "name": {
+      "type": ["string","null"]
+    },
+    "default": {
+      "type": ["boolean","null"]
+    },
+    "created_at": {
+      "type": ["null","timestamp"]
+    },
+    "updated_at": {
+      "type": ["null","timestamp"]
+    }
+  },
+  "additionalProperties": true
+}

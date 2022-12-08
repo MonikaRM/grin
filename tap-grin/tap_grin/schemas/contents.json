@@ -1,0 +1,80 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "campaign_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "job_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "network_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "content_rights_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+
+        "is_story": {
+            "type": [
+                "boolean",
+                "null"
+            ]
+        },
+        "media_library_content_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "posted_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "deleted_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true
+}

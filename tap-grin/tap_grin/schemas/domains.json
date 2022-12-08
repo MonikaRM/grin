@@ -1,0 +1,25 @@
+{
+
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": ["string","null"]
+    },
+    "type": {
+      "type": ["string","null"]
+    },
+    "subdomain": {
+      "type": ["string","null"]
+    },
+    "is_white_labeled": {
+      "type": ["boolean","null"]
+    },
+    "created_at": {
+      "type": ["null","timestamp"]
+    },
+    "updated_at": {
+      "type": ["null","timestamp"]
+    }
+  },
+  "additionalProperties": true
+}

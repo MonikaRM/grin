@@ -1,0 +1,31 @@
+{
+
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": ["string","null"]
+    },
+    "amount": {
+      "type": ["string","null"]
+    },
+    "total": {
+      "type": ["string","null"]
+    },
+    "state": {
+      "type": ["string","null"]
+    },
+    "provider": {
+      "type": ["string","null"]
+    },
+    "failure_reason": {
+      "type":  ["string","null"]
+    },
+    "created_at": {
+      "type": ["null","timestamp"]
+    },
+    "updated_at": {
+      "type": ["null","timestamp"]
+    }
+  },
+  "additionalProperties": true
+}

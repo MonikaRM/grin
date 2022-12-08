@@ -1,0 +1,75 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "ecommerce_account_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "group_id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "contact_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "code": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "start_date": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "end_date": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "disabled_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "disabled_reason": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "deleted_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    },
+    "additionalProperties": true
+}

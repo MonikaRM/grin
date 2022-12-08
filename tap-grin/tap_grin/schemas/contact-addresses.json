@@ -1,0 +1,63 @@
+{
+
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "integer"
+        },
+        "contact_id": {
+            "type": "string"
+        },
+        "label": {
+            "type": "string"
+        },
+        "first_name": {
+            "type": "string"
+        },
+        "last_name": {
+            "type": "string"
+        },
+        "email": {
+            "type": "string"
+        },
+        "phone_number": {
+            "type": "string"
+        },
+        "phone_country_code": {
+            "type": "string"
+        },
+        "phone_number_display": {
+            "type": "string"
+        },
+        "street": {
+            "type": "string"
+        },
+        "street_2": {
+            "type": "string"
+        },
+        "city": {
+            "type": "string"
+        },
+        "state": {
+            "type": "string"
+        },
+        "state_code": {
+            "type": "string"
+        },
+        "postal_code": {
+            "type": "string"
+        },
+        "country": {
+            "type": "string"
+        },
+        "country_code": {
+            "type": "string"
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": "string"
+        }
+    }
+}

@@ -1,0 +1,28 @@
+version: 1
+send_anonymous_usage_stats: true
+project_id: a9f792da-5d15-4479-8ee8-3b243871157f
+plugins:
+  extractors:
+  - name: tap-grin
+    namespace: tap_grin
+    pip_url: -e .
+    capabilities:
+    - state
+    - catalog
+    - discover
+    settings:
+    - name: username
+    - name: password
+      kind: password
+    - name: start_date
+      value: '2010-01-01T00:00:00Z'
+    - name: api_key
+      kind: password
+    config:
+      start_date: '2010-01-01T00:00:00Z'
+  loaders:
+  - name: target-csv
+    variant: hotgluexyz
+    pip_url: git+https://github.com/hotgluexyz/target-csv.git@0.3.3
+    config:
+        destination_path: /Users/monika/Documents/tap-grin/output

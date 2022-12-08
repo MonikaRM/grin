@@ -1,0 +1,57 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "campaign_id": {
+            "type": "string"
+        },
+        "network_id": {
+            "type": "integer"
+        },
+        "name": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "position": {
+            "type": "integer"
+        },
+        "is_required": {
+            "type": "boolean"
+        },
+        "media_type": {
+            "type": "string"
+        },
+        "requires_creator_oauth": {
+            "type": "boolean"
+        },
+        "deliverable_price": {
+            "type": "integer"
+        },
+        "quantity": {
+            "type": "integer"
+        },
+        "partnership_interval_type": {
+            "type": "string"
+        },
+        "starting_interval_index": {
+            "type": "integer"
+        },
+        "interval_indexes": {
+            "type": "array",
+            "items": {}
+        },
+        "bio_text": {
+            "type": "string"
+        },
+        "created_at": {
+            "type": "string"
+        },
+        "updated_at": {
+            "type": "string"
+        }
+    }
+}

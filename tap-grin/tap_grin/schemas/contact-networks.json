@@ -1,0 +1,89 @@
+{
+
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": ["string","null"]
+        },
+        "contact_id": {
+            "type": ["string","null"]
+        },
+        "network_id": {
+            "type": ["integer","null"]
+        },
+        "network_user_id": {
+            "type": ["string","null"]
+        },
+        "network_url": {
+            "type": ["string","null"]
+        },
+        "network_username": {
+            "type": ["string","null"]
+        },
+        "network_name": {
+            "type": ["string","null"]
+        },
+        "network_account_type": {
+            "type": ["string","null"]
+        },
+        "network_connection_type": {
+            "type": ["string","null"]
+        },
+        "network_connection_permissions": {
+            "type": ["string","null"]
+        },
+        "graph_id": {
+            "type": ["integer","null"]
+        },
+        "reach": {
+            "type": ["integer","null"]
+        },
+        "avg_likes": {
+            "type": ["number","null"]
+        },
+        "avg_comments": {
+            "type": ["number","null"]
+        },
+        "avg_likes_to_comment": {
+            "type": ["number","null"]
+        },
+        "avg_views": {
+            "type": ["number","null"]
+        },
+        "avg_shares": {
+            "type": ["number","null"]
+        },
+        "avg_engagement": {
+            "type": ["number","null"]
+        },
+        "avg_posts_per_day": {
+            "type": ["number","null"]
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "stats_updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "reach_updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "connection_last_checked_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "network": {
+            "type": ["string","null"]
+        },
+        "profile": {
+            "type": ["string","null"]
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "type": [
+        "object",
+        "null"
+    ],
+    "properties": {
+        "id": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "product_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "external_id": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "sku": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "cost": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "price": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "shipping_cost": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        },
+        "qty": {
+            "type": [
+                "integer",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": true
+}

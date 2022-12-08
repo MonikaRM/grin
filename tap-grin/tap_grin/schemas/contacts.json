@@ -1,0 +1,114 @@
+{
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": ["string","null"]
+        },
+        "record_type": {
+            "type": ["string","null"]
+        },
+        "source": {
+            "type": ["string","null"]
+        },
+        "owner_id": {
+            "type": ["string","null"]
+        },
+        "stage_id": {
+            "type": ["integer","null"]
+        },
+        "live_url_id": {
+            "type": ["string","null"]
+        },
+        "added_manually": {
+            "type": ["boolean","null"]
+        },
+        "profile_picture": {
+            "type": ["string","null"]
+        },
+        "first_name": {
+            "type": ["string","null"]
+        },
+        "last_name": {
+            "type": ["string","null"]
+        },
+        "email": {
+            "type": ["string","null"]
+        },
+        "primary_address_id": {
+            "type": ["integer","null"]
+        },
+        "phone_number": {
+            "type": ["string","null"]
+        },
+        "phone_country_code": {
+            "type": ["string","null"]
+        },
+        "phone_number_display": {
+            "type": ["string","null"]
+        },
+        "gender": {
+            "type": ["string","null"]
+        },
+        "language": {
+            "type": ["string","null"]
+        },
+        "company": {
+            "type": ["string","null"]
+        },
+        "total_reach": {
+            "type": ["number","null"]
+        },
+        "website": {
+            "type": ["string","null"]
+        },
+        "application_page_id": {
+            "type": ["string","null"]
+        },
+        "application_completed_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "primary_contact_id": {
+            "type": ["string","null"]
+        },
+        "birthday": {
+            "type": ["string","null"]
+        },
+        "is_archived": {
+            "type": ["boolean","null"]
+        },
+        "notification_channels": {
+            "type": [
+                "array",
+                "null"
+            ],
+            "additionalItems": true,
+            "items": {
+                "anyOf": [
+                    {
+                        "type": ["string","null"],
+                        "examples": [
+                            "product"
+                        ]
+                    }
+                ]
+            }
+        },
+        "created_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "joined_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "promoted_to_influencer_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        },
+        "updated_at": {
+            "type": ["null", "string"],
+            "format": "date-time"
+        }
+    }
+}
